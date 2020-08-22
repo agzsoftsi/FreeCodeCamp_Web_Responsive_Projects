@@ -1,0 +1,18 @@
+
+
+
+/** Images Styles **/
+img {
+    width: 500px;
+    
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+    
+    
+}
+
