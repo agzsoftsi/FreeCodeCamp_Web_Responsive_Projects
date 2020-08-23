@@ -1,5 +1,10 @@
+/** General Styles **/
 
 
+body {
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+}
 
 /** Images Styles **/
 img {
@@ -11,8 +16,44 @@ img {
     max-width: 100%;
     height: auto;
     display: block;
-    margin: auto;
-    
-    
+    margin: auto;    
+}
+
+figcaption {
+    width: 480px;
+}
+.captionimg {
+    max-width: 480px;
+    z-index: 1000;
+    position: fixed;
+    top: 85%;
+    left: 20%;
+    right: 20%;
+    background: darkgray;
+}
+
+#img-caption {
+    max-width: 100%;
+    height: auto;
+    margin: auto; 
+    padding: 4px;
+    border: 1px solid #000;
+
+}
+
+
+/** Articles Styles**/
+
+article{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 2%;
+    border: 1px solid #000;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: justify;
+    border-radius: 4px;
 }
 
