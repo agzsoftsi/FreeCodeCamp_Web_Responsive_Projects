@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <!--  Meta  -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey Form</title>
+  
+  <!--  Styles  -->
+  <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+
+   <!--  Header  -->
+   <header>
+    
+   </header> 
+  
+   <!--  Main  -->
+   <main id="main">
+    <h1 id="title">Survey Form - Developer's life </h1>
+        <h4>Thank you for taking the time to help us improve the platform</h4>
+        
+
+       <article>
+        <p id="description">
+          "We would like to know about the differents likes, experiences and activities of your life as a Developer".
+        </p>
+        
+        <form action="" method="POST" id="survey-form">
+
+          <section>
+          <h3><label for="name" id="name-label">Name:</label></h3>
+          <input type="text" id="name" name="name" required placeholder="Carlos Andres Garcia"> 
+
+          <h3><label for="email" id="email-label">E-mail:</label></h3>
+          <input type="email" id="email" name="email" required placeholder="agzsoftsi@gmail.com">
+
+          <h3><label for="number" id="number-label">Age:</label></h3>
+          <input type="number" id="number" name="number" required min="10" max="90" placeholder="32">
+
+          </section>
+
+          <section>
+
+          <h3><label for="dropdown" id="dropdown-label">Which option best describes your current role?</label></h3>
+          <select name="roles" id="dropdown" required>
+            <option value="rol1">Front-End</option>
+            <option value="rol2">Back-End</option>
+            <option value="rol3">Database Manager</option>
+            <option value="rol4">DevOps</option>
+            <option value="rol5">VideoGame Developer</option>
+            <option value="rol6">Other</option>
+          </select>
+
+        </section>
+
+         <section>
+
+          <h3><label for="radio-label" id="radio-label">What's your prefer place to Work?</label></h3>
+          <label for="home">Home</label>
+          <input type="radio" id="home" name="type-work" value="home">
+          <label for="company">Company</label>
+          <input type="radio" id="company" name="type-work" value="company">
+          <label for="both">Both</label>
+          <input type="radio" id="both" name="type-work" value="both">
+
+        </section>
+
+        <section>
+
+          <h3><label for="check-label" id="check-label">What are your Favorite Programming Languages?</label></h3>
+          <br><label for="lang1">
+          <input id="lang1" type="checkbox" name="python" value="0">Python</label>
+          <br><label for="lang2">
+          <input id="lang2" type="checkbox" name="ruby" value="1">Ruby</label>
+          <br><label for="lang3">
+          <input id="lang3" type="checkbox" name="java" value="2">Java</label>
+          <br><label for="lang4">
+          <input id="lang4" type="checkbox" name="C" value="3">C/C++</label>
+          <br><label for="lang5">
+          <input id="lang5" type="checkbox" name="go" value="4">Go</label>
+          <br><label for="lang6">
+          <input id="lang6" type="checkbox" name="C#" value="5">C#</label>
+          <br><label for="lang7">
+          <input id="lang7" type="checkbox" name="js" value="6">Javascripts</label>    
+          <br><label for="lang8">
+          <input id="lang8" type="checkbox" name="kotlin" value="7">Kotlin</label>
+          <br><label for="lang9">
+          <input id="lang9" type="checkbox" name="swift" value="8">Swift</label>  
+          <br><label for="lang10">
+          <input id="lang10" type="checkbox" name="php" value="9">PHP</label>  
+          <br><label for="lang11">
+          <input id="lang11" type="checkbox" name="r" value="10">R</label> 
+          <br><label for="lang12">
+          <input id="lang12" type="checkbox" name="objetive" value="11">Objective-C</label> 
+        </section>
+
+        <section>
+          <h3><label for="story">About your experiences on Programming, What's is your best achievement?</label></h3>
+
+          <textarea id="story" name="story"rows="5" cols="33" placeholder="Enter Text here..."></textarea>
+
+        </section>
+
+          <button type="submit" id="submit">Submit</button>
+
+        </form>
+
+
+
+
+       </article>
+       <h3>Survey Form - Carlos Andres Garcia</h3>
+       <h3>Responsive Web Design - 2020</h3>
+  </main>
+
+
+   <!--  Footer  --> 
+  <footer>
+
+
+  </footer>
+
+
+  <!-- Scripts -->
+  <script src="scripts/index.js"></script>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>

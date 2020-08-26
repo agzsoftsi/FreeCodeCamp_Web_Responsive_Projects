@@ -1,0 +1,96 @@
+/** General Styles **/
+
+
+body {
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    background-image: url("../Media/Background.jpg");
+    background-attachment: fixed;
+    font-size: 20px;
+    
+    
+}
+
+main {
+    max-width: 787px;
+    height: auto;
+    margin: 5% auto auto auto;
+    background: #2d275c;
+    opacity: 0.8;
+    padding: 10px;
+    border: 2px solid  #140f38;
+    color: white;
+    
+
+}
+
+
+/** Articles Styles**/
+
+article{
+    max-width: 747px;
+    height:auto;
+    margin: auto;
+    border: 2px solid  #140f38;
+    text-align: justify;
+    color: #ffedc6;
+    padding: 10px;
+    background: #140f38;
+    
+}
+
+
+/** Title Styles **/
+
+
+/** Footer Styles **/
+
+
+/** Links Styles **/
+
+a{ 
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #ffedc6;
+    
+}
+
+section {
+    max-width: 737;
+    height: auto;
+    margin: auto auto 10px auto;
+    border: #ffedc6 solid 1px;
+    padding: 10px;
+}
+
+
+input[type="text"], input[type="email"], input[type="number"], textarea, select {
+    width: 96%;
+    font-size: 20px;
+    padding: 10px;
+    margin: auto;
+}
+
+button {
+    background: #ffedc6;
+    padding: 10px;
+    color: #140f38;
+    font-size: 20px;
+    font-weight: bolder;
+    width: 100%;
+    margin: auto;
+}
+
+button:hover {
+    background: #ffde98;
+    font-size: 22px;
+}
+
+section:hover{
+    background: #52558a;
+    color: #140f38;
+}
+
