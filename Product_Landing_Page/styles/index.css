@@ -4,16 +4,8 @@
 body {
     text-align: center;
     font-family: 'Roboto Mono', monospace;
-    background: rgba(255,255,255,1);
-    background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(173,173,173,1) 100%);
-    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(173,173,173,1)));
-    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(173,173,173,1) 100%);
-    background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(173,173,173,1) 100%);
-    background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(173,173,173,1) 100%);
-    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(173,173,173,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#adadad', GradientType=0 );
-   font-size: 20px;
-    
+    font-size: 20px;
+    background: #000;
     
 }
 
@@ -24,7 +16,7 @@ header {
     top: 0; left: 0; right: 0;
     background: #7774E9;
     height: 80px;
-    
+    z-index: 10;
   }
   
   nav {
@@ -53,12 +45,9 @@ header {
 }
 
 main {
-    max-width: 787px;
-    height: auto;
-    margin: 5% auto auto auto;
-    background: #2d275c;
-    opacity: 0.8;
-    padding: 10px;
+
+    margin: auto;
+    padding: 10%;
     border: 2px solid  #140f38;
     color: white;
     
@@ -83,8 +72,12 @@ article{
 }
 
 
-/** Title Styles **/
+/** Video Styles **/
 
+video {
+    max-width: 500px;
+    height: auto;
+}
 
 /** Footer Styles **/
 
@@ -117,7 +110,7 @@ input[type="text"], input[type="email"], input[type="number"], textarea, select 
     margin: auto;
 }
 
-button {
+input[type="submit"] {
     background: #ffedc6;
     padding: 10px;
     color: #140f38;
@@ -127,7 +120,7 @@ button {
     margin: auto;
 }
 
-button:hover {
+input[type="submit"]:hover {
     background: #ffde98;
     font-size: 22px;
 }
